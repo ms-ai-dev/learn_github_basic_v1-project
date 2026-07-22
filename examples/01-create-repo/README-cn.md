@@ -1,5 +1,5 @@
 ---
-description: "独立创建一个配置正确的 Private GitHub Repository, 理解 Repo 作为项目容器, 协作单位和权限单位的核心价值, 并读懂每一项创建配置的作用."
+description: "独立创建一个配置正确的 Public GitHub Repository, 理解 Repo 作为项目容器, 协作单位和权限单位的核心价值, 并读懂每一项创建配置的作用."
 ---
 
 # 创建你的第一个 GitHub Repository: 数字项目的起点
@@ -38,7 +38,7 @@ Repo 就是为了解决这个问题而存在的. 它是一个共享的项目空�
 
 ## 4. 你将构建或学到什么
 
-完成这一节后, 你会拥有一个真实的, 属于你自己的 Private Repository. 它里面至少有一个自动生成的 README.md 文件, 你可以随时打开它的主页, 看到仓库名和 README 的内容. 这个 Repo 会成为你接下来几节课的 "工作台", 后面所有练习都在它上面进行.
+完成这一节后, 你会拥有一个真实的, 属于你自己的 Public Repository. 它里面至少有一个自动生成的 README.md 文件, 你可以随时打开它的主页, 看到仓库名和 README 的内容. 这个 Repo 会成为你接下来几节课的 "工作台", 后面所有练习都在它上面进行.
 
 ---
 
@@ -79,7 +79,7 @@ Repo 就是为了解决这个问题而存在的. 它是一个共享的项目空�
 
 Owner (所有者). 这个下拉菜单显示这个 Repo 归谁所有. 如果你用的是个人账户, 这里就是你的用户名. 如果你属于某个 Organization, 你也可以选择把它建在组织名下.
 
-Repository name (仓库名). 这是最需要养成好习惯的地方. 建议用小写字母, 单词之间用连字符 - 分隔, 不要用空格或下划线, 名字要简短但有描述性. 比如 my-first-project, data-analysis-2024, team-docs 都是好名字. 你输入的时候 GitHub 会自动检查这个名字是否可用, 如果可用, 旁边会显示一个绿色的勾和 "is available".
+Repository name (仓库名). 这是最需要养成好习惯的地方. 建议用小写字母, 单词之间用连字符 - 分隔, 不要用空格或下划线, 名字要简短但有描述性. 因为这是你学习 GitHub 的第一个练习仓库, 一个很合适的名字是把你自己的名字和课程主题拼在一起, 比如 john-doe-learn-github-basic. 这样以后回头看, 一眼就知道它是干嘛的. 你输入的时候 GitHub 会自动检查这个名字是否可用, 如果可用, 旁边会显示一个绿色的勾和 "is available".
 
 Description (描述). 这一项是可选的, 用一句话说明这个项目是做什么的. 虽然可以留空, 但还是建议填上, 以后你自己或别人看到列表时会一目了然.
 
@@ -89,11 +89,11 @@ Description (描述). 这一项是可选的, 用一句话说明这个项目是�
 
 再往下是 Configuration 部分, 也是最需要理解的一段. 下面这张图展示的就是这个配置区.
 
-![Repository 创建时的 Configuration 配置区](../../img/02-Create-Repo/02-Create-Repo-1.png)
+![Repository 创建时的 Configuration 配置区](../../img/01-create-repo/01-create-repo-1.png)
 
 我们逐项来看.
 
-Choose visibility (可见性). 有两个选项. Public 表示任何人都能看到, 适合开源项目. Private 表示只有你和你邀请的人能看到, 大多数工作项目都应该选这个. 这里推荐选 Private, 而且不用担心选错, 之后随时可以改成公开.
+Choose visibility (可见性). 有两个选项. Public 表示任何人都能看到, 适合开源项目和学习练习. Private 表示只有你和你邀请的人能看到, 真实工作里的很多项目会选它. 在本课里请选 Public. 原因很简单: 我们只是用这个 Repo 来练习创建, 改文件, 提交这些基本操作, 选 Public 能省掉一切权限和邀请上的麻烦, 让你把注意力放在操作本身. 等你以后要放真正私密的东西时, 再用 Private 也随时可以改.
 
 Start with a template (使用模板). 初学者保持默认的 No template 就好.
 
@@ -115,21 +115,21 @@ Add license (添加许可证). 许可证决定别人可以怎样使用你的代�
 
 ## 10. 练习
 
-### 练习 1: 创建你自己的第一个 Private Repository
+### 练习 1: 创建你自己的第一个 Public Repository
 
-**目标:** 独立走完整个创建流程, 得到一个配置正确的 Private Repository.
+**目标:** 独立走完整个创建流程, 得到一个配置正确的 Public Repository.
 
 **怎么做:**
 
 1. 用第 6 节里的任一种方式进入 "Create a new repository" 页面.
-2. 在 Repository name 里填一个名字, 建议用 your-name-first-repo 这种格式, 比如 john-first-repo.
-3. 把 Visibility 设为 Private.
+2. 在 Repository name 里填一个名字, 建议把你的名字和课程主题拼起来, 比如 john-doe-learn-github-basic.
+3. 把 Visibility 设为 Public.
 4. 勾选 Add a README.
 5. 点击底部绿色的 "Create repository" 按钮.
 
 **你会观察到:**
 
-页面跳转到新 Repo 的主页, 左上角是你刚填的仓库名, 中央显示着 README.md 的内容, 文件列表里能看到 README.md 这个文件.
+页面跳转到新 Repo 的主页, 左上角是你刚填的仓库名 (旁边会有一个 Public 标记), 中央显示着 README.md 的内容, 文件列表里能看到 README.md 这个文件.
 
 > **关键洞见:** 创建一个 Repo 用不到 5 分钟, 但这短短几步就把一个项目从 "散落的文件" 变成了 "有边界, 有历史, 可协作的空间".
 
@@ -139,7 +139,7 @@ Add license (添加许可证). 许可证决定别人可以怎样使用你的代�
 
 - Repository 就是一个智能项目文件夹: 它存文件, 记录历史, 支持协作, 还能控制权限.
 - 一个 Repo 对应一个项目, 这是最自然也最清晰的组织方式.
-- 创建时 Private 是最稳妥的默认选择, 以后想公开随时能改.
+- 本课的练习 Repo 选 Public, 图的是省心; 真实工作里要放私密内容时再用 Private, 两者随时可切换.
 - 一定要勾选 Add a README, 它是这个项目的门面.
 - .gitignore 根据项目类型来选, 不确定就先 None.
 - 命名习惯很重要: 小写字母加连字符, 简短而有描述性.
@@ -167,9 +167,9 @@ Add license (添加许可证). 许可证决定别人可以怎样使用你的代�
 
 **创建入口:** 右上角头像旁的 "+" 号, 选 New repository; 或个人主页 Repositories 标签页里的绿色 New 按钮.
 
-**推荐配置:** Visibility 选 Private, 勾选 Add a README, .gitignore 按项目类型选或先 None, license 选 No license.
+**推荐配置:** 本课练习 Visibility 选 Public, 勾选 Add a README, .gitignore 按项目类型选或先 None, license 选 No license.
 
-**命名规则:** 小写字母, 连字符分词, 无空格无下划线, 简短且有描述性 (如 my-first-project).
+**命名规则:** 小写字母, 连字符分词, 无空格无下划线, 简短且有描述性. 练习仓库推荐把名字和课程主题拼起来, 如 john-doe-learn-github-basic.
 
 **关键文件:**
 

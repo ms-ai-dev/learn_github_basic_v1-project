@@ -43,7 +43,7 @@ description: "学完你能在 GitHub 网页端浏览文件, 进入编辑模式�
 
 **文件列表区域**: 页面中间是文件列表. 你可能会看到 `.gitignore` (系统文件, 现在可以忽略) 和 `README.md` (项目的说明文档, 通常是别人打开 repo 后第一个会看的文件). 每个文件名后面还显示它最近一次的修改说明 (Commit Message) 和修改时间.
 
-![repo 页面的文件列表区域](../../img/01-Edit-Files/01-Edit-Files-1.png)
+![repo 页面的文件列表区域](../../img/02-edit-files/02-edit-files-1.png)
 
 **文件内容预览区域**: 文件列表下方会自动展示 README 的内容. GitHub 很贴心, 会自动把 `README.md` 渲染成排版漂亮的格式, 而不是让你看原始文本.
 
@@ -57,7 +57,7 @@ description: "学完你能在 GitHub 网页端浏览文件, 进入编辑模式�
 
 **方式二, 用 File Explorer 文件浏览器**: 点开任意文件后, 页面左侧会出现一个面板, 这就是 File Explorer. 它包含三样东西: 分支选择器 (显示 `main`, 也就是你当前所在的分支), 搜索框 (标着 "Go to file", 输入文件名就能快速定位), 以及完整的文件目录树. 当 repo 里文件很多时, 用搜索框查找会非常方便.
 
-![File Explorer 文件浏览器面板](../../img/01-Edit-Files/01-Edit-Files-2.png)
+![File Explorer 文件浏览器面板](../../img/02-edit-files/02-edit-files-2.png)
 
 ---
 
@@ -67,7 +67,7 @@ description: "学完你能在 GitHub 网页端浏览文件, 进入编辑模式�
 
 **第一步, 进入编辑模式**: 打开文件后, 你看到的是 Preview 模式 (也就是渲染后的漂亮格式). 在页面右上角找到铅笔图标 (Edit file 按钮, 它和 Raw, Blame 这些按钮在同一行), 点一下就切换到编辑模式.
 
-![点铅笔图标进入编辑模式](../../img/01-Edit-Files/01-Edit-Files-3.png)
+![点铅笔图标进入编辑模式](../../img/02-edit-files/02-edit-files-3.png)
 
 **第二步, 修改内容**: 编辑模式里有两个标签页. Edit 标签页显示原始的 Markdown 文本, 带行号, 你就在这里像用记事本一样改内容. Preview 标签页则能预览改完后的效果. 在 Edit 里放心地打字就好.
 
@@ -79,7 +79,7 @@ description: "学完你能在 GitHub 网页端浏览文件, 进入编辑模式�
 
 确认选中的是 "Commit directly to the main branch", 然后点绿色的 "Commit changes" 按钮, 保存就完成了.
 
-![Commit changes 对话框](../../img/01-Edit-Files/01-Edit-Files-4.png)
+![Commit changes 对话框](../../img/02-edit-files/02-edit-files-4.png)
 
 ---
 

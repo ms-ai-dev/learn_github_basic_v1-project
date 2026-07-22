@@ -82,6 +82,22 @@ Google Docs 里内置了 Gemini, 它可以总结文档, 建议修改, 回答问�
 
 当招聘经理看你的主页时, 这张图讲的故事是任何简历都比不了的: 这个人每天都在做事, 不只是嘴上说说, 而是真的在持续构建.
 
+下面是一位活跃开发者连续五年的贡献图. 你能直观感受到什么叫 "满屏深绿": 每一年都密密麻麻, 一年下来几千次贡献, 而且一年接一年从未间断. 这种日积月累, 谁都伪造不来的记录, 就是最有说服力的简历.
+
+![2026 年的贡献图, 全年 7,473 次贡献](../../img/05-put-everything-on-github/05-put-everything-on-github-01.png)
+
+![2025 年的贡献图, 全年 3,605 次贡献](../../img/05-put-everything-on-github/05-put-everything-on-github-02.png)
+
+![2024 年的贡献图, 全年 2,368 次贡献](../../img/05-put-everything-on-github/05-put-everything-on-github-03.png)
+
+![2023 年的贡献图, 全年 4,237 次贡献](../../img/05-put-everything-on-github/05-put-everything-on-github-04.png)
+
+![2022 年的贡献图, 全年 3,444 次贡献](../../img/05-put-everything-on-github/05-put-everything-on-github-05.png)
+
+我们来算一笔账, 你就明白这几百上千的贡献到底意味着什么. 一年有 365 天, 但真正干活的工作日大概只有 200 天. 只要你在工作日保持一个正常的节奏, 每天至少提交一次 (有些天在开会, 有些天没怎么动手, 但也有些天一口气提交十几次), 一周下来轻轻松松就有十来个贡献. 52 周累积起来, 一年几百个是最起码的.
+
+所以反过来想: 如果一个人的贡献图一年连几百个都凑不齐, 说明什么? 说明他平时基本没在动手, 没在学习, 也没在提升自己. 这个世界上最新最厉害的东西几乎都活在 GitHub 上, 你不在上面留下痕迹, 多半就是你根本没去碰它们. 贡献图不会撒谎, 它诚实地记录了你到底有没有在持续投入.
+
 这里有一个重要提示: 你可以点开任何一个绿色方块, 看到那个人那天到底 commit 了什么, 每一个改动, 每一个文件, 每一行代码都清清楚楚. 这就是为什么造假行不通. 如果一墙绿色, 但点开发现每个 commit 只是加了个空格, 一眼就能看穿. 那叫造假, 不叫贡献历史.
 
 ---
@@ -202,5 +218,5 @@ Google Docs 里内置了 Gemini, 它可以总结文档, 建议修改, 回答问�
 
 **关键链接:**
 
-- 你的 GitHub 主页, github.com/YOUR-GITHUB-USERNAME-HERE, 用来查看贡献图.
-- 你自己的 repo, 这是你所有工作的大本营.
+- 你的 GitHub 主页, https://github.com/YOUR-GITHUB-USERNAME-HERE, 用来查看贡献图.
+- 你所有 repo 的列表, https://github.com/YOUR-GITHUB-USERNAME-HERE?tab=repositories, 从这里进入你自己的 repo, 它是你所有工作的大本营.

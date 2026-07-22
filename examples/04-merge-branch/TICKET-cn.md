@@ -27,6 +27,7 @@ description: "在你自己的 repo 里为 dev-1 创建并合并一个 Pull Reque
 ## 3. 检查清单
 
 - [ ] **读懂 Merge 与 PR**: 你能用自己的话说清 Merge 是什么, Pull Request 是什么, 以及 Conflict 大致是怎么回事.
+- [ ] **看懂合并方向**: 在 PR 页面能认出 base (target) 是 main, compare (source) 是 dev-1, 确认改动方向是从 dev-1 到 main.
 - [ ] **成功创建 PR**: 为 dev-1 创建了一个 Pull Request, 标题和描述都填写清晰.
 - [ ] **成功合并**: 完成合并, 页面出现紫色的 "Merged" 标签.
 - [ ] **验证 main 上的结果**: 切回 main 分支后, README 现在显示 v2.

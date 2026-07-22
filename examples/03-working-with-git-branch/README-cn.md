@@ -23,6 +23,7 @@ description: "在 GitHub 网页端创建, 切换 Branch, 并在独立 Branch 上
 1. 用自己的话解释 Branch 是什么, 以及它和 Commit 的关系.
 2. 在 GitHub 网页上从 main 创建一个新的 Branch.
 3. 在不同 Branch 之间自由切换, 并在独立 Branch 上修改文件而不影响 main.
+4. 养成随时确认自己在哪个 Branch 的意识, 知道怎么从分支切换器看出当前分支和已有分支.
 
 ---
 
@@ -76,7 +77,19 @@ Branch 给你的, 其实是四种自由:
 
 ---
 
-## 7. 练习
+## 7. 一个必须养成的习惯: 时刻知道自己在哪个 branch
+
+有了多个 branch 之后, 一个新问题马上冒出来: 你现在到底站在哪一条时间线上? 这是初学者最容易忽略, 也最容易栽跟头的地方, 所以我们专门拿一节来讲清楚.
+
+每次打开 GitHub 网页, 第一件事就是瞟一眼左上方的分支切换器. 它会明确告诉你两件事: 你当前在哪个 branch (按钮上显示的就是当前分支名, 比如 main 或 dev-1), 以及这个 repo 一共有几个 branch (紧挨着的 "X Branches"). 点开这个按钮, 还能看到全部分支的列表. 后面练习里的那张分支切换器截图, 你可以对照着看.
+
+为什么这件事这么关键? 因为不同 branch 上的文件可以完全不一样. 同一个文件, 在一个分支上是 v2, 在另一个分支上还是 v1; 更极端的情况是, 某个文件在这个分支上存在, 在那个分支上压根还没创建. 很多人都遇到过这种困惑: "我明明改过 (或者加过) 这个文件, 怎么现在找不到了?" 十有八九不是文件丢了, 而是你当前正站在另一条时间线上.
+
+所以请把这句话刻进肌肉记忆: 动手改任何东西之前, 先确认 "我现在在哪个 branch". 提交的时候也一样, Commit 对话框里那句 "Commit directly to the <branch> branch", 就是在最后关头再提醒你一次, 这次改动到底要落到哪条时间线上. 养成这个意识, 你就绕开了用 branch 时最常见的那一类错误.
+
+---
+
+## 8. 练习
 
 下面三个练习在你自己的 repo 上连续完成. 做完你就完整走过了 "创建分支, 分支上修改, 切换见证" 的全流程.
 
@@ -91,7 +104,7 @@ Branch 给你的, 其实是四种自由:
 3. 点右上角绿色的 "Commit changes..." 按钮, 弹出对话框. Commit message 默认是 "Update README.md", 不用改; Extended description 留空; 提交选项确认选中的是 "Commit directly to the main branch".
 4. 点绿色的 "Commit changes" 完成提交.
 
-![编辑模式界面, 左上角是 Edit 和 Preview 两个标签](../../img/04-Working-With-Git-Branch/04-Working-With-Git-Branch-1.jpeg)
+![编辑模式界面, 左上角是 Edit 和 Preview 两个标签](../../img/03-working-with-git-branch/03-working-with-git-branch-1.jpeg)
 
 **你会观察到:**
 
@@ -111,13 +124,13 @@ Branch 给你的, 其实是四种自由:
 4. 点开 README.md 进入查看页, 点铅笔进入编辑, 把 v1 改成 v2.
 5. 点 "Commit changes...", 这次确认选中的是 "Commit directly to the dev-1 branch", 再点 Commit changes.
 
-![分支切换器, 显示 main 和 X Branches](../../img/04-Working-With-Git-Branch/04-Working-With-Git-Branch-2.jpeg)
+![分支切换器, 显示 main 和 X Branches](../../img/03-working-with-git-branch/03-working-with-git-branch-2.jpeg)
 
 **你会观察到:**
 
 提交后回到主页, 分支切换器显示 dev-1, README 显示 v2. 页面顶部还会出现一条黄色提示条 "dev-1 had recent pushes X seconds ago", 旁边有一个绿色的 "Compare & pull request" 按钮 (这个按钮我们下一节再用, 本节先不管它).
 
-![提交后出现黄色提示条和 Compare and pull request 按钮](../../img/04-Working-With-Git-Branch/04-Working-With-Git-Branch-3.jpeg)
+![提交后出现黄色提示条和 Compare and pull request 按钮](../../img/03-working-with-git-branch/03-working-with-git-branch-3.jpeg)
 
 > **关键洞见:** 你刚刚在 dev-1 这条新时间线上做了修改, 而 main 那条时间线原封不动.
 
@@ -140,18 +153,19 @@ Branch 给你的, 其实是四种自由:
 
 ---
 
-## 8. 回顾: 我们学到了什么
+## 9. 回顾: 我们学到了什么
 
 - Branch 是平行宇宙: 一条独立的时间线, 上面的修改不影响其他分支.
 - main 是主分支, 存放正式的版本.
 - 创建分支: 在分支切换器的搜索框里输入名字, 点 "Create branch ... from main".
 - 切换分支: 点分支切换器, 选目标分支.
+- 操作前先看分支切换器, 时刻清楚自己在哪个 branch; 找不到某个文件, 先怀疑是不是站错了分支.
 - 典型用途: 试新想法, 多人协作, 安全实验.
 - 核心价值: 让你敢尝试, 能并行.
 
 ---
 
-## 9. 导师寄语
+## 10. 导师寄语
 
 **为什么这个练习重要:**
 
@@ -170,11 +184,13 @@ Branch 给你的, 其实是四种自由:
 
 ---
 
-## 10. 速查
+## 11. 速查
 
 **创建分支:** 分支切换器搜索框输入名字, 点 "Create branch <name> from main".
 
 **切换分支:** 点分支切换器, 选目标分支.
+
+**认准当前分支:** 左上方分支切换器按钮上显示的就是你当前所在的 branch, 旁边的 "X Branches" 是分支总数.
 
 **在指定分支提交:** 编辑后在 Commit 对话框确认选中 "Commit directly to the <branch> branch".
 
@@ -184,6 +200,6 @@ Branch 给你的, 其实是四种自由:
 
 ---
 
-## 11. 参考实现
+## 12. 参考实现
 
 本节没有需要运行的代码. 参考成果就是你自己 repo 里的状态: main 分支的 README 显示 v1, dev-1 分支的 README 显示 v2, 两者切换互不影响.

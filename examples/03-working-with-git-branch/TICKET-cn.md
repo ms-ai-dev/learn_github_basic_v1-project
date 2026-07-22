@@ -28,5 +28,6 @@ description: "在自己的 repo 上创建 dev-1 分支, 让 main 的 README 显�
 - [ ] **理解 Branch 概念**: 读完 README, 你能说清 Branch 是什么, 以及它的典型使用场景.
 - [ ] **main 上提交 v1**: main 分支的 README 里有一行 v1, 且已经 Commit.
 - [ ] **创建了 dev-1 分支**: 分支切换器里能看到并切换到 dev-1.
+- [ ] **认得当前分支**: 任意时刻都能通过左上方的分支切换器看出自己现在在哪个 branch, 以及 repo 里一共有几个 branch.
 - [ ] **dev-1 上提交 v2**: dev-1 分支的 README 显示 v2, 且已经 Commit.
 - [ ] **验证分支隔离**: 切回 main 时 README 仍是 v1, 切到 dev-1 时是 v2, 你亲自体验了两个分支互不影响.

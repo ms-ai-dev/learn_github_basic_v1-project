@@ -19,9 +19,10 @@ description: "学完你能用 Pull Request 把 dev-1 分支上的 v2 成果合�
 学完这个 Task, 你将能够:
 
 1. 用自己的话解释 Merge 和 Pull Request 分别是什么, 以及它们的关系.
-2. 在自己的 repo 里为 dev-1 分支创建一个 Pull Request, 填好标题和描述.
-3. 完成合并, 把 dev-1 的 v2 改动整合进 main, 并验证结果.
-4. 理解什么是 Conflict (冲突), 以及为什么本节练习里你不会遇到它.
+2. 看懂一个 PR 的合并方向: 分清 source (compare) 和 target (base), 一眼确认改动是从谁合并到谁.
+3. 在自己的 repo 里为 dev-1 分支创建一个 Pull Request, 填好标题和描述.
+4. 完成合并, 把 dev-1 的 v2 改动整合进 main, 并验证结果.
+5. 理解什么是 Conflict (冲突), 以及为什么本节练习里你不会遇到它.
 
 ---
 
@@ -63,6 +64,8 @@ Pull Request 是在 GitHub 上发起 Merge 的方式. 一个标准的 PR 流程�
 
 在本节练习里, 因为是你自己的仓库, 审查和合并这两步都由你自己来做. 但流程本身和团队协作是一样的, 先理解流程, 以后进团队就不陌生了.
 
+还有一个概念一定要刻进脑子: 合并永远有方向. 每个 Pull Request 都牵涉两个分支, 一个是 source (改动的来源, GitHub 在 PR 里管它叫 compare), 一个是 target (改动要合并进去的地方, GitHub 管它叫 base). PR 页面顶部会用 "base: <target> 从 compare: <source> 合并过来" 这样的形式, 明确写出这次合并是从谁到谁. 看任何一个 PR, 第一眼就该盯住这个方向, 确认它没搞反. 最常见的规律是: 一个名字很具体的分支 (比如 dev-1, alice-login, feature-search) 合并进一个名字很标准的主分支 (通常就是 main). 也就是说, 改动总是从具体的功能分支流向标准的主线. 一旦方向反了, 你就会把 main 的内容并进功能分支, 那通常不是你想要的. 本节你要做的这次合并, 方向就是从 dev-1 (source) 到 main (target).
+
 ---
 
 ## 7. 一个完整的工作流程
@@ -85,7 +88,7 @@ Pull Request 是在 GitHub 上发起 Merge 的方式. 一个标准的 PR 流程�
 
 打开 repo 页面, 如果你刚刚在 dev-1 上做过改动, 页面顶部会出现一条黄色提示, 内容类似 "dev-1 had recent pushes X seconds ago", 旁边有一个绿色的 "Compare & pull request" 按钮. 点它就能直接进入创建 PR 的页面.
 
-![黄色提示条和 Compare and pull request 按钮](../../img/05-Merge-Branch/05-Merge-Branch-1.jpeg)
+![黄色提示条和 Compare and pull request 按钮](../../img/04-merge-branch/04-merge-branch-1.jpeg)
 
 如果没看到这条黄色提示也不要紧. 你可以点仓库顶部的 "Pull requests" 标签, 再点绿色的 "New pull request" 按钮, 手动选择要合并的分支.
 
@@ -95,7 +98,7 @@ Pull Request 是在 GitHub 上发起 Merge 的方式. 一个标准的 PR 流程�
 
 进入创建页面后, 页面标题是 "Open a pull request". 这里有几处要看清.
 
-**对比信息**: 页面上方会显示合并的方向, 形如 base: main 从 compare: dev-1 合并过来. 旁边如果有一个绿色的勾和 "Able to merge" 字样, 表示这次合并可以自动完成, 没有冲突.
+**对比信息**: 页面上方会显示合并的方向, 形如 base: main 从 compare: dev-1 合并过来. 对照上一节讲的方向概念, 这里 target 是 main, source 是 dev-1, 方向没错, 就是把 dev-1 的改动并进 main. 旁边如果有一个绿色的勾和 "Able to merge" 字样, 表示这次合并可以自动完成, 没有冲突.
 
 **标题 (Add a title)**: GitHub 会默认用你最后一次 Commit 的消息作为标题, 比如 "Update README.md". 你可以保持默认, 也可以改成更有描述性的说法.
 
@@ -103,7 +106,7 @@ Pull Request 是在 GitHub 上发起 Merge 的方式. 一个标准的 PR 流程�
 
 **改动预览**: 页面底部会展示这次 PR 包含的所有改动. 你会看到红色背景的 `- v1` 表示删除, 绿色背景的 `+ v2` 表示新增. 这让你在合并前就能清楚看到合并后会发生什么.
 
-![Open a pull request 页面, 包含对比信息和改动预览](../../img/05-Merge-Branch/05-Merge-Branch-2.jpeg)
+![Open a pull request 页面, 包含对比信息和改动预览](../../img/04-merge-branch/04-merge-branch-2.jpeg)
 
 确认无误后, 点绿色的 "Create pull request" 按钮.
 
@@ -115,7 +118,7 @@ Pull Request 是在 GitHub 上发起 Merge 的方式. 一个标准的 PR 流程�
 
 你会看到一个绿色的 "Open" 标签, 表示 PR 正在等待处理. 下面还有 "No conflicts with base branch" 和 "Merging can be performed automatically", 说明可以放心自动合并. 再往下是一个绿色的大按钮 "Merge pull request", 按钮下方还有一个 "Add a comment" 区域, 可以留评论, 这一步是可选的.
 
-![PR 详情页的 Merge pull request 按钮](../../img/05-Merge-Branch/05-Merge-Branch-3.jpeg)
+![PR 详情页的 Merge pull request 按钮](../../img/04-merge-branch/04-merge-branch-3.jpeg)
 
 执行合并: 点绿色的 "Merge pull request", 按钮会变成 "Confirm merge", 再点一次确认.
 
@@ -154,6 +157,7 @@ Pull Request 是在 GitHub 上发起 Merge 的方式. 一个标准的 PR 流程�
 ## 13. 回顾: 我们学到了什么
 
 - Merge 是把一个分支上的改动应用到另一个分支, 做的是找差异, 打包改动, 应用改动三件事.
+- 合并有方向: 从 source (compare) 到 target (base), PR 顶部会写明; 常见规律是具体的功能分支合并进标准的 main.
 - Pull Request 是在 GitHub 上发起合并的方式, 流程是创建, 审查, Merge, 删除分支.
 - 完成了实战: 为 dev-1 创建 PR, 填好标题描述, 合并, 并验证 main 上的 README 变成了 v2.
 - 理解了 Conflict 是同一位置的不同修改导致的, 需要人工决定, 而单人操作不会遇到.
@@ -184,6 +188,7 @@ Pull Request 是在 GitHub 上发起 Merge 的方式. 一个标准的 PR 流程�
 **关键概念:**
 
 - Merge: 合并分支, 把一个分支的改动应用到另一个分支.
+- 合并方向: source (compare) 到 target (base), 看 PR 顶部的 base 从 compare 那一行确认; 一般是功能分支到 main.
 - Pull Request: 合并请求, 在 GitHub 上发起并完成合并.
 - Conflict: 冲突, 同一位置的不同修改, 需要人工决定保留哪个.
 
