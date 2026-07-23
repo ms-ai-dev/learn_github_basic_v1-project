@@ -89,7 +89,7 @@ Description (描述). 这一项是可选的, 用一句话说明这个项目是�
 
 再往下是 Configuration 部分, 也是最需要理解的一段. 下面这张图展示的就是这个配置区.
 
-![Repository 创建时的 Configuration 配置区](../../img/01-create-repo/01-create-repo-1.png)
+![Repository 创建时的 Configuration 配置区](img/01-create-repo-1.png)
 
 我们逐项来看.
 

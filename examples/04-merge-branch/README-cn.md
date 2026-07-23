@@ -88,7 +88,7 @@ Pull Request 是在 GitHub 上发起 Merge 的方式. 一个标准的 PR 流程�
 
 打开 repo 页面, 如果你刚刚在 dev-1 上做过改动, 页面顶部会出现一条黄色提示, 内容类似 "dev-1 had recent pushes X seconds ago", 旁边有一个绿色的 "Compare & pull request" 按钮. 点它就能直接进入创建 PR 的页面.
 
-![黄色提示条和 Compare and pull request 按钮](../../img/04-merge-branch/04-merge-branch-1.jpeg)
+![黄色提示条和 Compare and pull request 按钮](img/04-merge-branch-1.jpeg)
 
 如果没看到这条黄色提示也不要紧. 你可以点仓库顶部的 "Pull requests" 标签, 再点绿色的 "New pull request" 按钮, 手动选择要合并的分支.
 
@@ -106,7 +106,7 @@ Pull Request 是在 GitHub 上发起 Merge 的方式. 一个标准的 PR 流程�
 
 **改动预览**: 页面底部会展示这次 PR 包含的所有改动. 你会看到红色背景的 `- v1` 表示删除, 绿色背景的 `+ v2` 表示新增. 这让你在合并前就能清楚看到合并后会发生什么.
 
-![Open a pull request 页面, 包含对比信息和改动预览](../../img/04-merge-branch/04-merge-branch-2.jpeg)
+![Open a pull request 页面, 包含对比信息和改动预览](img/04-merge-branch-2.jpeg)
 
 确认无误后, 点绿色的 "Create pull request" 按钮.
 
@@ -118,7 +118,7 @@ Pull Request 是在 GitHub 上发起 Merge 的方式. 一个标准的 PR 流程�
 
 你会看到一个绿色的 "Open" 标签, 表示 PR 正在等待处理. 下面还有 "No conflicts with base branch" 和 "Merging can be performed automatically", 说明可以放心自动合并. 再往下是一个绿色的大按钮 "Merge pull request", 按钮下方还有一个 "Add a comment" 区域, 可以留评论, 这一步是可选的.
 
-![PR 详情页的 Merge pull request 按钮](../../img/04-merge-branch/04-merge-branch-3.jpeg)
+![PR 详情页的 Merge pull request 按钮](img/04-merge-branch-3.jpeg)
 
 执行合并: 点绿色的 "Merge pull request", 按钮会变成 "Confirm merge", 再点一次确认.
 

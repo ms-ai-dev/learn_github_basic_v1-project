@@ -84,15 +84,15 @@ Google Docs 里内置了 Gemini, 它可以总结文档, 建议修改, 回答问�
 
 下面是一位活跃开发者连续五年的贡献图. 你能直观感受到什么叫 "满屏深绿": 每一年都密密麻麻, 一年下来几千次贡献, 而且一年接一年从未间断. 这种日积月累, 谁都伪造不来的记录, 就是最有说服力的简历.
 
-![2026 年的贡献图, 全年 7,473 次贡献](../../img/05-put-everything-on-github/05-put-everything-on-github-01.png)
+![2026 年的贡献图, 全年 7,473 次贡献](img/05-put-everything-on-github-01.png)
 
-![2025 年的贡献图, 全年 3,605 次贡献](../../img/05-put-everything-on-github/05-put-everything-on-github-02.png)
+![2025 年的贡献图, 全年 3,605 次贡献](img/05-put-everything-on-github-02.png)
 
-![2024 年的贡献图, 全年 2,368 次贡献](../../img/05-put-everything-on-github/05-put-everything-on-github-03.png)
+![2024 年的贡献图, 全年 2,368 次贡献](img/05-put-everything-on-github-03.png)
 
-![2023 年的贡献图, 全年 4,237 次贡献](../../img/05-put-everything-on-github/05-put-everything-on-github-04.png)
+![2023 年的贡献图, 全年 4,237 次贡献](img/05-put-everything-on-github-04.png)
 
-![2022 年的贡献图, 全年 3,444 次贡献](../../img/05-put-everything-on-github/05-put-everything-on-github-05.png)
+![2022 年的贡献图, 全年 3,444 次贡献](img/05-put-everything-on-github-05.png)
 
 我们来算一笔账, 你就明白这几百上千的贡献到底意味着什么. 一年有 365 天, 但真正干活的工作日大概只有 200 天. 只要你在工作日保持一个正常的节奏, 每天至少提交一次 (有些天在开会, 有些天没怎么动手, 但也有些天一口气提交十几次), 一周下来轻轻松松就有十来个贡献. 52 周累积起来, 一年几百个是最起码的.
 

@@ -104,7 +104,7 @@ Branch 给你的, 其实是四种自由:
 3. 点右上角绿色的 "Commit changes..." 按钮, 弹出对话框. Commit message 默认是 "Update README.md", 不用改; Extended description 留空; 提交选项确认选中的是 "Commit directly to the main branch".
 4. 点绿色的 "Commit changes" 完成提交.
 
-![编辑模式界面, 左上角是 Edit 和 Preview 两个标签](../../img/03-working-with-git-branch/03-working-with-git-branch-1.jpeg)
+![编辑模式界面, 左上角是 Edit 和 Preview 两个标签](img/03-working-with-git-branch-1.jpeg)
 
 **你会观察到:**
 
@@ -124,13 +124,13 @@ Branch 给你的, 其实是四种自由:
 4. 点开 README.md 进入查看页, 点铅笔进入编辑, 把 v1 改成 v2.
 5. 点 "Commit changes...", 这次确认选中的是 "Commit directly to the dev-1 branch", 再点 Commit changes.
 
-![分支切换器, 显示 main 和 X Branches](../../img/03-working-with-git-branch/03-working-with-git-branch-2.jpeg)
+![分支切换器, 显示 main 和 X Branches](img/03-working-with-git-branch-2.jpeg)
 
 **你会观察到:**
 
 提交后回到主页, 分支切换器显示 dev-1, README 显示 v2. 页面顶部还会出现一条黄色提示条 "dev-1 had recent pushes X seconds ago", 旁边有一个绿色的 "Compare & pull request" 按钮 (这个按钮我们下一节再用, 本节先不管它).
 
-![提交后出现黄色提示条和 Compare and pull request 按钮](../../img/03-working-with-git-branch/03-working-with-git-branch-3.jpeg)
+![提交后出现黄色提示条和 Compare and pull request 按钮](img/03-working-with-git-branch-3.jpeg)
 
 > **关键洞见:** 你刚刚在 dev-1 这条新时间线上做了修改, 而 main 那条时间线原封不动.
 
