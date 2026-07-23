@@ -17,6 +17,7 @@ description: "在网页端成功创建一个 Visibility 为 Public, 且已勾选
 3. 配置要求: 把 Visibility 设为 Public, 并勾选 Add a README.
 4. 点击 Create repository 完成创建, 跳转到新 Repo 主页.
 5. 在文件列表里确认能看到 README.md, 并确认可以打开自己 Repo 的主页.
+6. 复制 Repo 的 URL, 在浏览器的匿名窗口里打开, 确认未登录也能看到它, 并注意到顶部的 Public 标记.
 
 **预计用时:** 10 到 15 分钟
 
@@ -28,3 +29,4 @@ description: "在网页端成功创建一个 Visibility 为 Public, 且已勾选
 - [ ] **创建成功**: 成功创建了一个 Visibility 为 Public 的 Repository.
 - [ ] **README 存在**: 在 Repo 的文件列表里能看到 README.md 文件.
 - [ ] **主页可访问**: 能打开自己 Repo 的主页, 看到左上角的仓库名和中央的 README 内容.
+- [ ] **验证 Public 可见性**: 在匿名窗口里打开 Repo 的 URL, 确认未登录状态下也能看到全部内容, 并看到 Public 标记.
