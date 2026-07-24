@@ -19,7 +19,7 @@ description: "把至少一个非代码文档从 Word 或 Google Docs 搬进你�
 5. 在你自己的 repo 里创建一个有意义命名的新文件, 把这个文档的内容搬进去.
 6. 提交时写一句有意义的 commit message, 不要用 update 或 add file 这种敷衍的字样.
 
-**预计用时:** 15 到 20 分钟
+**预计用时:** 15 分钟左右
 
 ---
 

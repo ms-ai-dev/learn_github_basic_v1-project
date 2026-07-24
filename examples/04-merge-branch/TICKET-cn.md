@@ -2,7 +2,7 @@
 description: "在你自己的 repo 里为 dev-1 创建并合并一个 Pull Request, 让 main 上的 README 从 v1 变成 v2."
 ---
 
-# 用 Pull Request 把 dev-1 合并回 main
+# 用 Pull Request 把分支合并回 main
 
 ## 1. 目标
 
@@ -20,7 +20,7 @@ description: "在你自己的 repo 里为 dev-1 创建并合并一个 Pull Reque
 6. 切回 main 分支, 确认 README 现在显示 v2.
 7. (可选) 点 "Delete branch" 删除已经合并完的 dev-1, 保持仓库整洁.
 
-**预计用时:** 10 到 15 分钟
+**预计用时:** 15 分钟左右
 
 ---
 
