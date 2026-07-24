@@ -19,7 +19,7 @@ description: "成功生成一个只有 repo 权限的 classic Personal Access To
 5. 生成后立刻复制那串以 ghp_ 开头的 token, 并存进密码管理器 (1Password, Bitwarden 等), 记上权限和日期.
 6. (可选) 回到 token 列表, 撤销一个 token, 观察你的账号和仓库毫发无损, 亲身体会它的可丢弃.
 
-**预计用时:** 10 到 15 分钟
+**预计用时:** 15 分钟左右
 
 ---
 

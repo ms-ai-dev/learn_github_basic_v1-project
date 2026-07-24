@@ -19,7 +19,7 @@ description: "在自己的 repo 上创建 dev-1 分支, 让 main 的 README 显�
 5. 切回 main, 确认 README 仍然显示 v1.
 6. 再切到 dev-1, 确认 README 显示 v2, 体验分支切换.
 
-**预计用时:** 15 到 20 分钟
+**预计用时:** 15 分钟左右
 
 ---
 
