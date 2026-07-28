@@ -1,36 +1,12 @@
 ---
-description: "By the end you can run the full basic GitHub workflow on your own: create a repo, edit files and commit, experiment safely with branches and Pull Requests then merge back into main, tell public from private, invite collaborators, manage access tokens, work locally with GitHub Desktop, and tell who a repository belongs to so you can find the ones shared with you in an organization."
+description: "By the end you can run the full basic GitHub workflow on your own: create a repo, edit files and commit, branch to experiment safely, then merge back with a Pull Request. You can also control access (public vs private, collaborators, tokens), work locally with GitHub Desktop, and tell who a repository belongs to. Above all you build the habit of putting everything on GitHub. No command line."
+github_about: "Learn GitHub basics from zero: create a repo, edit files, branch and merge, public vs private, collaborators, tokens, GitHub Desktop, and repository ownership under organizations. No command line."
 ---
 
-# Learn GitHub Basics Overview
+# learn_github_basic_v1-project
 
-> In one line: this course walks you through GitHub's basic workflow from zero, starting entirely in the browser and landing on GitHub Desktop locally. For the full pitch, see [README-ORIGINAL.md](README-ORIGINAL.md).
+GitHub is the industry standard for managing and collaborating on text in today's software world. Code, documents, or any information that lives as words, it manages all of them with version history, collaboration tools, and a permanent record. This course teaches only its core basic workflow, so someone who has never touched GitHub can get hands-on step by step: starting in the browser, then extending to access control, and finally landing on GitHub Desktop locally, all without a single command line.
 
-## 1. What This Course Is
+By the end you can independently create and configure your own repository, edit files and commit changes in the browser, open a parallel branch to experiment safely, then use a Pull Request to merge your work back into main. You can also tell public from private, invite collaborators to work with you, use an access token to let programs act on your behalf, move the whole workflow onto GitHub Desktop locally, and see that every repository sits under an owner, so you know to look inside an organization for the ones other people share with you. This is the same workflow real teams run every day, and mastering it gives you the fundamentals to take part in modern collaborative projects. The course is a basic introduction, deep enough to carry you through one full round on your own.
 
-GitHub is the industry standard for managing and collaborating on text. This course takes someone who has never touched GitHub and walks them, hands-on, through its core basic workflow: create a repo, edit files, experiment safely with branches and Pull Requests then merge, control access (public vs private, collaborators, access tokens), move the whole workflow onto GitHub Desktop locally, and finally see that every repository sits under an owner and learn to find repositories inside an organization. No command line anywhere, and by the end GitHub becomes your everyday primary workspace.
-
-This is a readup-style teaching repository: the whole repo is one course, and its content is split into numbered mini tasks under [examples/](examples/). You don't read it like a thick book cover to cover. Just follow the "How to Read" path below, go through the mini tasks one by one, and do each one's TICKET as you read.
-
----
-
-## 2. How to Read
-
-1. Start with the series index in [examples/README.md](examples/README.md) to get a map of the whole course.
-2. Read the mini tasks under examples in numbered order (01, 02, ...): in each mini task folder, read the README first (what it teaches and what it has you do), then follow its TICKET to complete "what to do" item by item, and use the checklist to verify you actually did it.
-3. Finish one, then move to the next, until the last one (it helps you recap what you learned and points to where to go if you want to take it further).
-4. What counts as done: every mini task's TICKET checklist checks off, and you can run the core flow yourself without looking at the tutorial.
-
-The mini tasks grow on top of each other: the earlier ones all operate on the same repo of your own, adding one piece at a time. So read them in order rather than skipping around.
-
----
-
-## 3. Course Content
-
-All the mini tasks are organized by theme in [examples/README.md](examples/README.md). Enter from there.
-
----
-
-## 4. What You Can Do by the End
-
-By the end, GitHub is no longer an unfamiliar programmer's tool but your default home for everyday collaboration and version control: you can independently create repos, edit files, work with branches and PRs, tell what belongs public versus private, bring the right people in to collaborate, let programs act for you via a token, work comfortably on your own machine with GitHub Desktop, and tell at a glance who a repository belongs to and where to go looking for it. As your own primary workspace, that is already enough.
+More important than the mechanics is the habit it wants to build: put everything on GitHub. In the age of AI, a daily, verifiable record that no one can fake speaks louder than any self-description, and GitHub is the one platform that makes keeping that long-term record effortless.
