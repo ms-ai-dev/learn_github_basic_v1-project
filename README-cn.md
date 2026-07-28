@@ -1,12 +1,36 @@
 ---
-description: "学完你能独立走完 GitHub 的整套基础工作流: 在网页端创建并配置自己的 Repository, 编辑文件并 commit, 用 branch 开辟平行分支安全实验, 再用 Pull Request 把成果 merge 回 main; 更进一步, 你能掌控访问权 (分清 public 与 private, 邀请 collaborator 协作, 生成 access token 让程序代表你操作), 并把整套操作从网页搬到本地的 GitHub Desktop. 比操作更重要的是养成把一切工作都放上 GitHub 的习惯, 让 contribution graph 成为你最可信的长期记录. 面向零基础的 basic 课, 不碰命令行, 学完即可把 GitHub 用作日常协作与版本管理的默认主场."
-github_about: "零基础学 GitHub 基础工作流: 创建 repo, 编辑文件, branch 与 merge, public 与 private, collaborator 与 access token, 再用 GitHub Desktop 搬到本地, 并养成把一切放上 GitHub 的习惯. 不碰命令行."
+description: "读完你能独立用 GitHub 走完整套基础工作流: 建 repo, 编辑文件并 commit, 用 branch 与 Pull Request 安全实验再合并回 main, 分清 public 与 private, 邀请 collaborator, 管理 access token, 用 GitHub Desktop 在本地工作, 并认清仓库的归属, 会在 organization 里找到别人分享给你的仓库, 把 GitHub 用作日常协作与版本管理的默认主场."
 ---
 
-# learn_github_basic_v1-project
+# Learn GitHub Basics 总览
 
-GitHub 是当今软件世界管理和协作文本的业内标准. 无论是代码, 文档还是任何以文字存在的信息, 它都能带上版本历史, 协作工具和永久的记录来管理. 这门课只教它最核心的基础工作流, 让完全没接触过 GitHub 的人也能一步步上手: 从纯网页操作起步, 逐步扩展到访问权控制, 再落到本地的 GitHub Desktop, 全程不碰命令行.
+> 一句话: 这门课带你从零走完 GitHub 的基础工作流, 从纯网页操作起步, 落到本地的 GitHub Desktop. 想先了解全貌, 看 [README-ORIGINAL-cn.md](README-ORIGINAL-cn.md).
 
-学完你能独立创建并配置自己的 repository, 在浏览器里编辑文件并提交改动, 用 branch 开辟平行分支安全地实验, 再用 Pull Request 把成果合并回 main; 也能分清 public 与 private, 邀请 collaborator 一起协作, 用 access token 让程序代表你操作, 并把整套流程搬到本地的 GitHub Desktop. 这是真实团队每天都在走的工作流, 掌握了它, 你就具备了参与现代协作项目的基本功. 课程定位是 basic 入门, 深度刚好覆盖 "能自己独立走完一整轮".
+## 1. 这门课是什么
 
-比操作更重要的是它想帮你建立的习惯: 把一切工作都放到 GitHub 上. 在 AI 时代, 一份日积月累, 可验证, 无法造假的记录, 比任何自我标榜都更有说服力, 而 GitHub 是唯一能让这种长期记录变得毫不费力的平台.
+GitHub 是当今管理和协作文本的业内标准. 这门课手把手带一个完全没接触过 GitHub 的人上手它最核心的基础工作流: 建 repo, 改文件, 用 branch 和 Pull Request 安全地实验再合并, 掌控访问权 (public 与 private, collaborator, access token), 把整套操作搬到本地的 GitHub Desktop, 最后认清每个仓库都挂在一个 owner 名下, 学会在 organization 里找仓库. 全程不碰命令行, 学完就能把 GitHub 当作自己日常的主要工作区.
+
+这是一个 readup 类型的教学仓库: 整个 repo 就是一门课, 内容拆成 [examples/](examples/) 下一个个按编号排列的 mini task. 你不用把它当成一本从头读到尾的大部头, 只要照下面 "怎么读" 的路子, 一篇篇顺着读下来, 边读边照每篇的 TICKET 做, 就能学会.
+
+---
+
+## 2. 怎么读
+
+1. 先读 [examples/README-cn.md](examples/README-cn.md) 的系列索引, 对整门课有张地图.
+2. 按编号顺序读 examples 下的 mini task (01, 02, ...): 每个 mini task 目录里, 先读 README (这一篇教什么, 带你做什么), 再照它的 TICKET 把 "要做的事情" 逐项做完, 用 "检查清单" 自查是不是真的做到了.
+3. 一篇读完再读下一篇, 直到读完最后一篇 (它会帮你梳理学到了什么, 并指出想更进一步可以往哪走).
+4. 读到什么算成: 每个 mini task 的 TICKET 检查清单都能逐项打勾, 且能不看教程自己把核心流程走一遍.
+
+这门课的 mini task 是一路长起来的: 前几篇都在你自己的同一个 repo 上操作, 一节接一节地叠加. 所以尽量按顺序读, 别跳着来.
+
+---
+
+## 3. 课程内容
+
+全部 mini task 按主题梳理在 [examples/README-cn.md](examples/README-cn.md) 里, 从那儿进入.
+
+---
+
+## 4. 读完你能做到什么
+
+读完这门课, GitHub 对你来说不再是一个陌生的程序员工具, 而是你日常协作和版本管理的默认主场: 你能独立建 repo, 改文件, 用 branch 和 PR 干活, 拎得清什么该公开什么该私有, 把对的人请进来协作, 让程序凭 token 代表你操作, 能在自己电脑上用 GitHub Desktop 顺手地工作, 还能一眼看出一个仓库属于谁, 知道该去哪里找它. 作为你自己的主要工作区, 这些已经足够了.

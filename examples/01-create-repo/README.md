@@ -25,6 +25,7 @@ After finishing this Task, you will be able to:
 1. Explain in your own words what a Repository is, and how it differs from an ordinary folder.
 2. Independently create a correctly configured GitHub Repository.
 3. Understand what each creation setting does (visibility, README, .gitignore, license, and so on), and make sensible choices for your own projects.
+4. Find your way back to every repository under your own account, from a fixed entry point.
 
 ---
 
@@ -113,7 +114,27 @@ The page will jump to the home page of your new Repo. You will see the repositor
 
 ---
 
-## 10. Exercises
+## 10. Finding Your Repo Again
+
+After creating it, you will most likely close the page and go do something else. So where do you go the next time you want to open it?
+
+Plenty of beginners bookmark the URL, or dig through browser history. GitHub actually has one fixed entry point, and remembering it is enough: click your avatar in the top right, then choose Repositories from the dropdown menu.
+
+![The Repositories entry in the avatar dropdown menu, plus the personal Repositories page with a Find a repository search box at the top and a Public or Private label on the right of each row](img/01-create-repo-02.png)
+
+That takes you to your repository list page, whose address is `github.com/USERNAME?tab=repositories` (replace USERNAME with your own username), so you can also just type that address directly. The Repositories tab at the top of your personal profile leads to the same place.
+
+Three things on this page are worth noticing:
+
+- The Find a repository search box at the top. With only one repository it seems pointless; once you have dozens, searching beats scrolling by a wide margin.
+- The Type and Language filters next to it. They let you narrow the list down to one kind of repository.
+- The small label to the right of each repository name. One that says Private is a private repository, and one with no label is public. The one you just created should have no label, since it is Public.
+
+There is also a boundary worth remembering right now: this list only shows repositories under your own account. When someone shares a repository with you later, it will not necessarily show up here, and you will have to look somewhere else. Lesson 10 covers that specifically.
+
+---
+
+## 11. Exercises
 
 ### Exercise 1: Create Your Own First Public Repository
 
@@ -149,9 +170,25 @@ Even though this window is not logged in at all, you can still see the full cont
 
 > **Key insight:** Public is not an abstract setting but a very concrete "anyone on earth can access this." This is both the power of open source collaboration and a security boundary you will need to take seriously later. In lesson 06 we will create a Private Repo and look at it through the same incognito window, and the result will be exactly the opposite.
 
+### Exercise 3: Leave, Then Find It Again
+
+**Goal:** Memorize that fixed entry point, so you can get back to your own repositories at any time without bookmarks or browser history.
+
+**What to do:**
+
+1. Close the tab with your Repo in it, or just go to github.com to return to the home page.
+2. Click your avatar in the top right and choose Repositories from the dropdown menu.
+3. Find the repository you just created in the list and click into it.
+
+**What you will observe:**
+
+You are back on the familiar Repo home page. While you are at it, glance at the address bar: the list page lives at `github.com/USERNAME?tab=repositories`, so from now on you can type that address directly.
+
+> **Key insight:** Your own repositories are always under this entry point, and none of them will ever go missing. But only your own repositories are here, and that boundary will matter later.
+
 ---
 
-## 11. Recap: What We Learned
+## 12. Recap: What We Learned
 
 - A Repository is a smart project folder: it stores files, records history, supports collaboration, and controls permissions.
 - One Repo corresponds to one project, which is the most natural and clearest way to organize things.
@@ -159,10 +196,11 @@ Even though this window is not logged in at all, you can still see the full cont
 - Always check Add a README, since it is the face of the project.
 - Choose .gitignore based on the project type, and if you are not sure, start with None.
 - Naming habits matter: lowercase letters with hyphens, short but descriptive.
+- To find your own repositories again, use Repositories in the avatar menu, and remember that list only shows what is under your own account.
 
 ---
 
-## 12. A Word from Your Mentor
+## 13. A Word from Your Mentor
 
 **Why this exercise matters:**
 
@@ -179,9 +217,11 @@ Bring this habit into your real work. Next time you have any new idea or new tas
 
 ---
 
-## 13. Quick Reference
+## 14. Quick Reference
 
 **Creation entry point:** The "+" icon next to your avatar in the top right, choose New repository; or the green New button in the Repositories tab on your personal home page.
+
+**Finding your own repositories:** Your avatar in the top right, then Repositories in the dropdown menu; or go straight to `github.com/USERNAME?tab=repositories`. This list only shows repositories under your own account.
 
 **Recommended configuration:** For this lesson's exercise, set Visibility to Public, check Add a README, choose .gitignore by project type or start with None, and choose No license.
 

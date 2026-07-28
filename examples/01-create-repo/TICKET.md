@@ -18,6 +18,7 @@ Create your first Repository by hand on the GitHub website. Through this task, y
 4. Click Create repository to finish, and land on the new Repo's home page.
 5. Confirm in the file list that you can see README.md, and confirm that you can open your own Repo's home page.
 6. Copy the Repo's URL, open it in your browser's incognito window, confirm that you can see it even without logging in, and notice the Public label at the top.
+7. Close the page, then find it again through the Repositories entry in your avatar menu, and remember that this list only shows repositories under your own account.
 
 **Estimated time:** About 15 minutes
 
@@ -30,3 +31,4 @@ Create your first Repository by hand on the GitHub website. Through this task, y
 - [ ] **README exists**: You can see the README.md file in the Repo's file list.
 - [ ] **Home page accessible**: You can open your own Repo's home page and see the repository name in the top left and the README content in the center.
 - [ ] **Verify Public visibility**: Open the Repo's URL in an incognito window and confirm that you can see all the content while not logged in, and see the Public label.
+- [ ] **Can find your Repo again**: After closing the page, you can get back to it through the Repositories entry in your avatar menu, and you know that list only shows repositories under your own account.

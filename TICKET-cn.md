@@ -27,6 +27,7 @@ description: "读完全部 mini task 并逐项打勾各自的 TICKET, 能不看�
 - [ ] **能独立复现**: 不看教程, 能把建 repo, 改文件, 开 branch, 用 PR 合并这套核心流程从头独立走一遍.
 - [ ] **能讲清概念**: 能用自己的话解释 repository, branch, Pull Request, public 与 private, access token 各自解决什么问题.
 - [ ] **本地工作流跑通**: 能用 GitHub Desktop 在本地完成 clone, commit, push, 分得清 local 和 remote 的边界.
+- [ ] **认得清仓库归属**: 拿到一个仓库能说出它的 owner 是谁, 也知道去 organization 里找别人分享给你的仓库.
 
 ---
 
@@ -40,4 +41,5 @@ description: "读完全部 mini task 并逐项打勾各自的 TICKET, 能不看�
 - 用精确的 GitHub username 把 collaborator 邀请进来协作.
 - 生成一个最小权限的 access token 并安全保存, 知道它随时可一键撤销.
 - 用 GitHub Desktop 在本地完成 clone, commit, branch, push 与不走 PR 的本地 merge.
+- 认清每个 repo 都挂在一个 owner 名下, 并能在 organization 的仓库列表里找到指定的仓库.
 - 养成把一切工作都放上 GitHub 的习惯, 让 contribution graph 成为你最可信的长期记录.

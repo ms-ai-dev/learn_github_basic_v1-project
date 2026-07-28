@@ -27,6 +27,7 @@ By reading through all the mini tasks in this course, you should build a complet
 - [ ] **Can reproduce independently**: without the tutorial, you can run the core flow (create a repo, edit files, open a branch, merge with a PR) from scratch on your own.
 - [ ] **Can explain the concepts**: you can explain in your own words what problem each of repository, branch, Pull Request, public vs private, and access token solves.
 - [ ] **Local workflow works**: you can clone, commit, and push locally with GitHub Desktop, and you can tell the local and remote boundary apart.
+- [ ] **Can tell ownership**: you can name the owner of any repository you are handed, and you know to look inside an organization for repositories other people share with you.
 
 ---
 
@@ -40,4 +41,5 @@ By reading through all the mini tasks in this course, you should build a complet
 - Invite a collaborator to work with you using an exact GitHub username.
 - Generate a least-privilege access token, store it safely, and know it can be revoked in one click anytime.
 - Use GitHub Desktop to clone, commit, branch, push, and do a local merge without a PR.
+- Recognize that every repo sits under an owner, and find a given repository in an organization's repository list.
 - Build the habit of putting all your work on GitHub, so your contribution graph becomes your most credible long-term record.

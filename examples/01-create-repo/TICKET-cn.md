@@ -18,6 +18,7 @@ description: "在网页端成功创建一个 Visibility 为 Public, 且已勾选
 4. 点击 Create repository 完成创建, 跳转到新 Repo 主页.
 5. 在文件列表里确认能看到 README.md, 并确认可以打开自己 Repo 的主页.
 6. 复制 Repo 的 URL, 在浏览器的匿名窗口里打开, 确认未登录也能看到它, 并注意到顶部的 Public 标记.
+7. 关掉这个页面, 再从右上角头像的 Repositories 入口把它找回来, 记住这个列表只列你自己名下的仓库.
 
 **预计用时:** 15 分钟左右
 
@@ -30,3 +31,4 @@ description: "在网页端成功创建一个 Visibility 为 Public, 且已勾选
 - [ ] **README 存在**: 在 Repo 的文件列表里能看到 README.md 文件.
 - [ ] **主页可访问**: 能打开自己 Repo 的主页, 看到左上角的仓库名和中央的 README 内容.
 - [ ] **验证 Public 可见性**: 在匿名窗口里打开 Repo 的 URL, 确认未登录状态下也能看到全部内容, 并看到 Public 标记.
+- [ ] **能找回自己的 Repo**: 关掉页面后, 能从右上角头像的 Repositories 入口重新找到它, 并知道这个列表只列你自己名下的仓库.

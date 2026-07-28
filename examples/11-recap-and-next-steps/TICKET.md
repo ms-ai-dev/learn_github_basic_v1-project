@@ -14,11 +14,12 @@ This is the wrap-up for the whole course, with no new exercises. Look back over 
 
 Read through it and, if you can say "how to do it" for each one, it stuck.
 
-- [ ] Know roughly what this course covered (three blocks: the basics, taking control of access, and smoother tools).
+- [ ] Know roughly what this course covered (four blocks: the basics, taking control of access, smoother tools, and knowing who a repository belongs to).
 - [ ] Can work with GitHub: create a repo, edit files and commit, open a branch, and merge back into main with a PR or a merge.
 - [ ] Can create a private repo, and tell the difference between what should be public and what should be private.
 - [ ] Can invite someone as a collaborator.
 - [ ] Know how to generate, store, and revoke an access token.
 - [ ] Can use GitHub Desktop to clone, commit, and push locally.
+- [ ] Can name the owner of any repository you are handed, and know to look inside an organization for repositories others share with you.
 
 If you get stuck on any of these, just go back and read that section again.

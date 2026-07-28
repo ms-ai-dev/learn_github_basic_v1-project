@@ -92,8 +92,10 @@ In GitHub Desktop, click File, choose Clone Repository, and the dialog below pop
 
 ![Clone a Repository dialog: under the GitHub.com tab, search for and select your repo, set the Local Path, then click Clone](img/09-use-github-desktop-01.png)
 
-- The default GitHub.com tab lists all the repos under your account, with a search box on top, so you can filter by name. It is the friendliest option for beginners.
+- The default GitHub.com tab lists every repo you have access to, with a search box on top, so you can filter by name. It is the friendliest option for beginners.
 - There is also a URL tab next to it, where you can paste a repo's clone URL (something like https://github.com/username/repo-name). It works the same way, just without the convenience of searching.
+
+One detail here is worth noticing: this list shows every repo you have access to, not just the ones you created yourself. If you are on a team or at a company, the team's repositories show up here too, grouped by owner. Right now you probably only see your own handful, so it does not feel like much; once your repositories start coming from more places, that grouping becomes very useful. As for what that "owner" actually is, lesson 10 covers it specifically.
 
 Select the repo you want to clone, pick a location for it under Local Path (say, a folder on your desktop), click the blue Clone button, and wait a few seconds. When it is done, open that Local Path folder and you will see all the files in the repo.
 

@@ -149,7 +149,7 @@ Adding a collaborator is a simple operation, but behind it hides an important wo
 
 **Next step:**
 
-Bring this habit into your real collaboration. The next time you work on a project with someone, the first thing to do is think it through clearly: who needs to get in, do I have their exact username, and have I added them. As you take part in larger projects, you will run into finer-grained collaboration mechanisms like Organizations, Teams, and Branch Protection, but today you have already mastered the most fundamental first step, inviting the right people into your project.
+Bring this habit into your real collaboration. The next time you work on a project with someone, the first thing to do is think it through clearly: who needs to get in, do I have their exact username, and have I added them. As you take part in larger projects, you will run into finer-grained collaboration mechanisms like Organizations, Teams, and Branch Protection. Organizations are the one you will bump into most often, and lesson 10 covers specifically what they are and why a repository someone shared with you should be looked for there. But today you have already mastered the most fundamental first step, inviting the right people into your project.
 
 ---
 

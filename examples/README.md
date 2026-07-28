@@ -1,12 +1,12 @@
 # Learn GitHub Basics Series Index
 
-This course walks you through the fundamentals of GitHub from the ground up. You start with pure browser-based work, move down to a local desktop tool, and finally step back to tie the whole path into one clear storyline. The first eight lessons use nothing but a browser, all on a single repo of your own, growing it one lesson at a time. The 10 mini tasks below are grouped into seven parts: first lay the foundation (have a place to put things, know how to change them), then master Git's core workflow (branch and merge), then make a mental shift (put everything on GitHub), then learn to control access (tell public from private, and invite the right people in to collaborate), then open the door to automation (let a program act on GitHub on your behalf using a token), then bring the whole workflow local (work on your own computer with GitHub Desktop), and finally recap and look ahead (connect the whole course into one storyline and see where to go next).
+This course walks you through the fundamentals of GitHub from the ground up. You start with pure browser-based work, move down to a local desktop tool, and finally step back to tie the whole path into one clear storyline. The first eight lessons use nothing but a browser, all on a single repo of your own, growing it one lesson at a time. The 11 mini tasks below are grouped into eight parts: first lay the foundation (have a place to put things, know how to change them), then master Git's core workflow (branch and merge), then make a mental shift (put everything on GitHub), then learn to control access (tell public from private, and invite the right people in to collaborate), then open the door to automation (let a program act on GitHub on your behalf using a token), then bring the whole workflow local (work on your own computer with GitHub Desktop), then step outside your own little corner (see that every repository belongs to an owner, and learn to find repositories inside an organization), and finally recap and look ahead (connect the whole course into one storyline and see where to go next).
 
 ## 1. Lay the Foundation: Have a Place to Put Things, Know How to Change Them
 
 This group solves the most basic problem: you first need a project space of your own, and you need to be able to change files inside it with ease.
 
-- [01-create-repo](01-create-repo/README.md): Create your first Public Repository from scratch, understand why it is the container for a project, the unit of collaboration, and the unit of permissions, and confirm with an incognito window that it is visible to the whole world.
+- [01-create-repo](01-create-repo/README.md): Create your first Public Repository from scratch, understand why it is the container for a project, the unit of collaboration, and the unit of permissions, confirm with an incognito window that it is visible to the whole world, and find your way back to it at any time from the avatar menu.
 - [02-edit-files](02-edit-files/README.md): Open, edit, and commit files right in the browser, saving your changes to main without any local software.
 
 ---
@@ -53,16 +53,24 @@ Everything so far has been clicking in the browser. But in real work, people wri
 
 ---
 
-## 7. Recap and Look Ahead: Connect the Whole Path into One Storyline
+## 7. Step Outside Your Own Corner: Who Does a Repository Belong To
 
-By this point you know all the moves, but it is easy to miss the forest for the trees. This last part teaches no new operations. Instead it helps you connect the previous nine lessons into one line, confirm your own level, and see clearly where to go next.
+For the first nine lessons you have only worked on repositories you created yourself. But the moment you start working with other people, most of the repositories you touch are not yours. This part clears up the confusion almost everyone runs into: someone says they shared a repository with you, and you cannot find it anywhere in your own list.
 
-- [10-recap-and-next-steps](10-recap-and-next-steps/README.md): Organize the whole course into three storyline segments, use a self-assessment table to confirm what you can do on your own, and see clearly the two paths beyond the "solo" stage (working a job and open source), knowing that knowing how to PR is the shared key.
+- [10-understand-github-organization](10-understand-github-organization/README.md): See that every repo sits under an owner, tell a personal account from an organization, learn to search an organization for the repository you were given, and understand that creating a repository is the same choice of owner.
 
 ---
 
-## 8. Summary
+## 8. Recap and Look Ahead: Connect the Whole Path into One Storyline
 
-Put these seven parts together, and you go through a complete growth arc: from "I have a repo" to "I can change files inside it," then to "I can work like a professional team using branch and merge," then to "I capture all my work on GitHub," then to "I can tell what should be public from what should be private, and invite the right people in to collaborate," then to "I can let a program act on GitHub on my behalf using a token," then to "I can work professionally on my own computer with a desktop tool," and finally, looking back, "I can connect all of this into one storyline, and I can see clearly where to go next."
+By this point you know all the moves, but it is easy to miss the forest for the trees. This last part teaches no new operations. Instead it helps you connect the previous ten lessons into one line, confirm your own level, and see clearly where to go next.
+
+- [11-recap-and-next-steps](11-recap-and-next-steps/README.md): Organize the whole course into four storyline segments, use a self-assessment table to confirm what you can do on your own, and see clearly the two paths beyond the "solo" stage (working a job and open source), knowing that knowing how to PR is the shared key.
+
+---
+
+## 9. Summary
+
+Put these eight parts together, and you go through a complete growth arc: from "I have a repo" to "I can change files inside it," then to "I can work like a professional team using branch and merge," then to "I capture all my work on GitHub," then to "I can tell what should be public from what should be private, and invite the right people in to collaborate," then to "I can let a program act on GitHub on my behalf using a token," then to "I can work professionally on my own computer with a desktop tool," then to "I can tell who any repository belongs to and where to go looking for it," and finally, looking back, "I can connect all of this into one storyline, and I can see clearly where to go next."
 
 Once you have worked through this line, GitHub is no longer an unfamiliar programmer's tool but the default home base for your everyday collaboration and version control. And that is exactly the point: to use GitHub as your own primary workspace, what this course teaches is already enough. As for stepping beyond the solo stage, whether collaborating with coworkers on the job or contributing to the open source community, you already picked up that key back in lesson 04. Know how to PR, and the rest you can step out into whenever you need it.

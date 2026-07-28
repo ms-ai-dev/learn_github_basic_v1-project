@@ -16,7 +16,7 @@ This section is an easy one. There are no new exercises here, just a fast pass o
 
 ## 2. A Quick Recap
 
-The whole course really comes down to three blocks.
+The whole course really comes down to four blocks.
 
 **Block one: the basics of using GitHub (01 to 05).**
 Create a repo, edit files and commit them in the browser, open a branch, use a Pull Request to merge that branch back into main, and finally build the habit of putting everything on GitHub. This block got you comfortable doing real work on GitHub, and it showed you why your contribution graph is the most credible resume you have.
@@ -27,7 +27,10 @@ Create a private repo to keep a project hidden, invite the right people as colla
 **Block three: smoother tools (09).**
 Use GitHub Desktop to move the whole workflow from the browser onto your local machine. This is also how almost everyone works in the real world: write on your own computer, then sync it up to GitHub.
 
-That's it. Put the three blocks together and you can already treat GitHub as your main day-to-day workspace.
+**Block four: knowing who a repository belongs to (10).**
+Every repo sits under an owner, which may be a personal account or an organization. Once you know that, you can find the repositories other people share with you, and you know whose name your own new repositories will land under.
+
+That's it. Put the four blocks together and you can already treat GitHub as your main day-to-day workspace.
 
 ---
 
@@ -41,6 +44,7 @@ Go down the list below and ask yourself "can I explain how to do this?" If you c
 - Invite someone as a collaborator.
 - Generate and safely store an access token, and revoke it when you need to.
 - Run the full clone, commit, push flow locally with GitHub Desktop.
+- Name the owner of any repository you are handed, and know to look inside an organization when you cannot find one.
 
 If you get stuck on any of these, go back and read that section again. If you can do all of them, you already have everything you need to use GitHub as your main personal workspace, and that's plenty.
 

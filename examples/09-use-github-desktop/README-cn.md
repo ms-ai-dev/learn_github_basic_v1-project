@@ -92,8 +92,10 @@ Clone 就是把远程的 repo 完整地复制到你电脑上. 完成后, 你电�
 
 ![Clone a Repository 对话框, GitHub.com 标签下搜索并选中你的 repo, 设置 Local Path 后点 Clone](img/09-use-github-desktop-01.png)
 
-- 默认的 GitHub.com 标签会列出你账号下所有的 repo, 上面还有个搜索框, 输入名字就能筛, 对新手最友好.
+- 默认的 GitHub.com 标签会列出你有访问权限的所有 repo, 上面还有个搜索框, 输入名字就能筛, 对新手最友好.
 - 旁边还有个 URL 标签, 你也可以直接把 repo 的 clone URL (形如 https://github.com/username/repo-name) 粘进去, 效果一样. 只是没有搜索那么省事.
+
+这里有个细节值得留意: 这个列表列的是你有访问权限的全部 repo, 不只是你自己创建的那些. 如果你在某个团队或公司里, 团队的仓库也会出现在这里, 而且是按拥有者分组排列的. 现在你多半只看得到自己那几个, 所以体会不深; 等你手上的仓库来源变多, 这个分组就很有用了. 至于这个 "拥有者" 到底是什么, 10 节会专门讲.
 
 选中你要 clone 的 repo, 在下方 Local Path 里选一个存放位置 (比如桌面上的一个文件夹), 点蓝色的 Clone 按钮, 等几秒就好. 完成后打开那个 Local Path 文件夹, 你就能看到 repo 里的所有文件了.
 
