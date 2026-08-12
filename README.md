@@ -16,8 +16,8 @@ This is a readup-style teaching repository: the whole repo is one course, and it
 
 ## 2. How to Read
 
-1. Start with the series index in [examples/README.md](examples/README.md) to get a map of the whole course.
-2. Read the mini tasks under examples in numbered order (01, 02, ...): in each mini task folder, read the README first (what it teaches and what it has you do), then follow its TICKET to complete "what to do" item by item, and use the checklist to verify you actually did it.
+1. Start with the series index in [examples/01-overview/README.md](examples/01-overview/README.md) to get a map of the whole course.
+2. Starting at 02, read the mini tasks under examples in numbered order: in each mini task folder, read the README first (what it teaches and what it has you do), then follow its TICKET to complete "what to do" item by item, and use the checklist to verify you actually did it.
 3. Finish one, then move to the next, until the last one (it helps you recap what you learned and points to where to go if you want to take it further).
 4. What counts as done: every mini task's TICKET checklist checks off, and you can run the core flow yourself without looking at the tutorial.
 
@@ -27,7 +27,7 @@ The mini tasks grow on top of each other: the earlier ones all operate on the sa
 
 ## 3. Course Content
 
-All the mini tasks are organized by theme in [examples/README.md](examples/README.md). Enter from there.
+All the mini tasks are organized by theme in [examples/01-overview/README.md](examples/01-overview/README.md). Enter from there.
 
 ---
 

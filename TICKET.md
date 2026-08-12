@@ -17,7 +17,7 @@ By reading through all the mini tasks in this course, you should build a complet
 3. Read all the mini tasks under examples in numbered order, reading each README first and then following its own TICKET item by item. The early ones build up on the same repo of yours, so read them in order.
 4. Read the final recap-and-next-steps piece, and get clear on what you learned and where you can go next.
 
-**Estimated time:** 2.5 to 3 hours, and it's fine to spread it across a few sittings.
+**Estimated time:** 2 to 3 hours, and it's fine to spread it across a few sittings.
 
 ---
 

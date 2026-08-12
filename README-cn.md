@@ -16,8 +16,8 @@ GitHub 是当今管理和协作文本的业内标准. 这门课手把手带一�
 
 ## 2. 怎么读
 
-1. 先读 [examples/README-cn.md](examples/README-cn.md) 的系列索引, 对整门课有张地图.
-2. 按编号顺序读 examples 下的 mini task (01, 02, ...): 每个 mini task 目录里, 先读 README (这一篇教什么, 带你做什么), 再照它的 TICKET 把 "要做的事情" 逐项做完, 用 "检查清单" 自查是不是真的做到了.
+1. 先读 [examples/01-overview/README-cn.md](examples/01-overview/README-cn.md) 的系列索引, 对整门课有张地图.
+2. 从 02 开始, 按编号顺序读 examples 下的 mini task: 每个 mini task 目录里, 先读 README (这一篇教什么, 带你做什么), 再照它的 TICKET 把 "要做的事情" 逐项做完, 用 "检查清单" 自查是不是真的做到了.
 3. 一篇读完再读下一篇, 直到读完最后一篇 (它会帮你梳理学到了什么, 并指出想更进一步可以往哪走).
 4. 读到什么算成: 每个 mini task 的 TICKET 检查清单都能逐项打勾, 且能不看教程自己把核心流程走一遍.
 
@@ -27,7 +27,7 @@ GitHub 是当今管理和协作文本的业内标准. 这门课手把手带一�
 
 ## 3. 课程内容
 
-全部 mini task 按主题梳理在 [examples/README-cn.md](examples/README-cn.md) 里, 从那儿进入.
+全部 mini task 按主题梳理在 [examples/01-overview/README-cn.md](examples/01-overview/README-cn.md) 里, 从那儿进入.
 
 ---
 
