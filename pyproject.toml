@@ -1,5 +1,6 @@
 [project]
 name = "learn_github_basic_v1"
+description = "A beginner-friendly introduction to the basic GitHub workflow: creating repos, branches and PRs, access control, and GitHub Desktop. No command line, and not only for people who write code."
 version = "0.1.1"
 requires-python = ">=3.12,<4.0"
 dependencies = [
