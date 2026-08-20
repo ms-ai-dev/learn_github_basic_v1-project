@@ -19,7 +19,7 @@ description: "读懂每个 repo 都挂在一个 owner 名下, 会看自己加入
 5. 弄清一件事: 能打开某个仓库不等于你加入了那个组织, 你可能只是那一个仓库的 collaborator.
 6. 在 GitHub Desktop 里 File, New Repository 随便建一个本地 repo, 点 Publish repository, 展开 Organization 下拉看一眼有哪些选项, 然后直接关掉, 不用真的发布.
 
-**预计用时:** 15 分钟左右
+**预计用时:** 5 到 15 分钟
 
 ---
 

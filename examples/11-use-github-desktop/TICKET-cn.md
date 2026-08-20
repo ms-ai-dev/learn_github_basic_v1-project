@@ -20,7 +20,7 @@ description: "用 GitHub Desktop 把自己的 repo clone 到本地, 并在本地
 6. 新建并切换一个 branch, 在上面改动并 commit, 感受切换 branch 时改动的出现与消失.
 7. 切到 main, 用 Choose a branch to merge into main 把那个 branch 本地 merge 进来, 再 Push origin.
 
-**预计用时:** 15 分钟左右
+**预计用时:** 15 到 30 分钟
 
 ---
 

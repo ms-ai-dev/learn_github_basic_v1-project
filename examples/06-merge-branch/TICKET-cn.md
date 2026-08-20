@@ -20,7 +20,7 @@ description: "在你自己的 repo 里为 dev-1 创建并合并一个 Pull Reque
 6. 切回 main 分支, 确认 README 现在显示 v2.
 7. (可选) 点 "Delete branch" 删除已经合并完的 dev-1, 保持仓库整洁.
 
-**预计用时:** 15 分钟左右
+**预计用时:** 15 到 30 分钟
 
 ---
 

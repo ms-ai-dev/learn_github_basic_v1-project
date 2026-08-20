@@ -19,7 +19,7 @@ description: "成功创建一个 Private Repository, 用匿名窗口确认它对
 5. 进入 Settings, General, 拉到最底部的 Danger Zone, 找到 Change visibility, 把 repo 切成 Public 再切回 Private, 观察标记的变化.
 6. 能用自己的话说清楚: 为什么不能把 secret 提交进 public repo, 以及为什么 public 内容泄露后收不回来.
 
-**预计用时:** 15 分钟左右
+**预计用时:** 15 到 30 分钟
 
 ---
 
