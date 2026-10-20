@@ -15,3 +15,5 @@ GitHub 是当今管理和协作文本的业内标准. 不管是代码, 文档, �
 This is a test change from codespace.
 
 This is a test of ming-dev branch.
+
+This is a test change from branch-practice.
